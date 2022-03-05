@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pasteleria.css">
+        <link rel="icon" href="img/bb_bakery_logo_blanco.png">
+        <!--title>Jurassic Pan</title-->
+        <title>Bikini Bottom Bakery</title>
+    </head>
+    <body>
+        <h1>Pasteleria de Fondo de Bikini</h1>
+        <div class="logo_cont">
+            <img src="img/bb_bakery_logo_blanco.png" alt="Es el pastel para ti y para mi!" class="logo_bbb">
+        </div>
+        
+        <h2>Arma tu pastel a tu gusto!</h2>
+        <br>
+
+        <div class="container">
+                <h3>Sabor(es)</h3>
+                <!-- check boxes con los sbores de los pasteles-->
+                <label for="sabor1">Sabor vainilla: $100</label><br>
+                <input type="checkbox" id="sabor1" class="sabor1" name="sabor1" value="Vainilla" >
+                <!--label for="sabor1">Costo: $100</label><br-->
+                <label for="sabor2">Sabor fresa: $50</label><br>
+                <input type="checkbox" id="sabor2" name="sabor2" value="Fresa">
+                <label for="sabor3">Sabor chocolate: $70</label><br>
+                <input type="checkbox" id="sabor3" name="sabor3" value="Chocolate">
+                <br>
+            
+        </div>
+        <br>
+        <hr>
+
+        <div class="container">
+            <h3>Decoracion(es)</h3>
+            <!-- check boxes con las decoraciones de los pasteles-->
+            <label for="deco1">Decoracion de Fondant: $50</label><br>
+            <input type="checkbox" id="deco1" class="deco1" name="deco1" value="Fondant">
+            <!--label for="sabor1">Costo: $100</label><br-->
+            <label for="deco2">Crema de mantequilla: $30</label><br>
+            <input type="checkbox" id="deco2" name="deco2" value="Crema_mantequilla">
+            
+            <label for="deco3">Decoracion de Merengue: $70</label><br>
+            <input type="checkbox" id="deco3" name="deco3" value="Merengue">
+
+            <label for="deco4">Decoracion de Chantilly: $80</label><br>
+            <input type="checkbox" id="deco4" name="deco4" value="Chantilly">
+
+            <label for="deco5">Decoracion de Ganache: $130</label><br>
+            <input type="checkbox" id="deco5" name="deco5" value="Ganache">
+            
+        
+        </div>
+        <hr>
+
+        <div class="container">
+            <h3>Ingresa tus datos</h3>
+            <br>
+            <!-- formulario para los datos basicos del cliente -->
+            <label for="Input1">Ingresa tu nombre</label><br><br>
+            <input type="text" id="Input1" name="Input1" placeholder="nombre" maxlength="255">
+            <br><br>
+
+            <!-- input de telefono-->
+            <label for="tel1">Ingresa tu telefono</label><br><br>
+            <input type="tel" id="tel1" name="tel1" maxlength="10" placeholder="telefono">
+            <br><br>
+
+            <!-- input de correo-->
+            <label for="correo1">Ingresa tu e-mail</label><br><br>
+            <input type="email" id="correo1" name="correo1" placeholder="correo">
+            <br><br>
+
+            <label for="Input2">Descripcion del pastel:</label>
+            <br>
+            <textarea id="Input2" name="Input2" rows="2" cols="30"></textarea>
+            <br/>
+            <input type="submit" value="Enviar">
+        </div>
+
+        <br>
+        <br>
+        
+        <footer>
+            <p>@Copyright 2022 Bikini Bottom Bakery<br> Interseccion de Calle Concha y Av. Coral, No 10<br> Tel. (123) 4567890<br> Lunes a Sabado, de 8 am a 8 pm</p>
+        </footer>
+    </body>
+<html>
